@@ -1,0 +1,52 @@
+body {
+  background: rgb(21, 21, 21);
+  font: normal 15 pt Arial;
+}
+
+header {
+  color: rgb(187, 28, 255);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Sansita Swashed', cursive;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.173);
+}
+
+div {
+  text-align: left;
+  padding: 8px;
+}
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+.button {
+  padding: 12px 24px;
+  margin-top: 16px;
+  transition-duration: 0.4s;
+  background-color: orangered;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  border: 0;
+}
+
+.button:hover {
+  background-color: #7d4caf; /* Green */
+  color: white;
+}
+
+select#flista {
+  width: 150px;
+}
