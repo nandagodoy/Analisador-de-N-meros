@@ -46,7 +46,8 @@ function finalizar() {
       if (valores[pos] > maior) maior = valores[pos];
       if (valores[pos] < menor) menor = valores[pos];
     }
-    media = soma / tot;
+    media = parseFloat((soma / tot ).toFixed(2));
+    
     res.innerHTML = '';
     res.innerHTML += `<p>Ao todo, temos ${tot} números cadastrados. </p>`;
     res.innnerHTML += `<p>O maior valor informado foi ${maior}.</p>`;
